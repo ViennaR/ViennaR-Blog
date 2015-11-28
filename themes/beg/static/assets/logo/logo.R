@@ -36,7 +36,7 @@ p <- ggplot(data.frame(x=-1, y=-1, cat=factor("Vienna"))) +
            axis.title.x=element_blank(),
            axis.title.y=element_blank(),
            panel.grid.minor = element_blank(),
-           strip.text.x = element_text(size=65, face="plain", colour="#2d2d2d", family="Redressed"),
+           strip.text.x = element_text(size=65, face="plain", colour="#2d2d2d", family="Roboto Condensed"),
            plot.margin=unit(c(5,5,0,0),"mm"),
            legend.position="none")
 
@@ -64,13 +64,15 @@ dev.off()
 
 map_data <- fortify(vie_boundary, region="DISTRICT_CODE")
 map_data[["cat"]] <- "Vienna"
+
+
+
 p2 <- ggplot() +
       geom_polygon(data=map_data,
                    aes(x=long, y=lat, group=group), fill="gray90", colour="gray65") +
       scale_fill_continuous(low="darkgray", high="white", space="Lab") +
       coord_cartesian(xlim=extendrange(bbox(vie_boundary)[1, ]),
                       ylim=extendrange(bbox(vie_boundary)[2, ])) +
-      facet_wrap(~ cat) +
       theme_bw() +
       theme(axis.line=element_blank(),
             axis.text.x=element_blank(),
@@ -80,16 +82,17 @@ p2 <- ggplot() +
             axis.title.y=element_blank(),
             panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            # http://www.fontsquirrel.com/fonts/redressed
-            strip.text.x = element_text(size=65, face="plain", colour="#2d2d2d", family="Redressed"),
+			panel.border = element_blank(),
+            # http://www.fontsquirrel.com/fonts/roboto-2014
+            strip.text.x = element_text(size=65, face="plain", colour="#2d2d2d", family="Roboto Condensed"),
             plot.margin=unit(c(5,5,0,0),"mm"),
             legend.position="none")
 
-svg("logo_map.svg", 4, 4)
+svg("logo_map.svg", 5.5, 4)
 print(p2)
 grid.picture(x, x=0.75, y=0.46, width=0.45, height=0.45, xscale=c(0, 500), yscale=c(0, 500))
 dev.off()
-png("../logo.png", 256, 256)
+png("../logo.png", 700, 550)
 print(p2)
 grid.picture(x, x=0.75, y=0.43, width=0.45, height=0.45, xscale=c(0, 500), yscale=c(0, 500))
 dev.off()
