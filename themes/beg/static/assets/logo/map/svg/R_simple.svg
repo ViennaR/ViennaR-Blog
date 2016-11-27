@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="72"
+   width="100"
+   version="1.0"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Rlogo-simple.svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="3.2777778"
+     inkscape:cx="50"
+     inkscape:cy="36"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Rlogo simple</title>
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Rlogo simple</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>towolf</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 24.501016,9.9527119 c 0,0 -0.0028,53.2100001 -0.0028,53.2100001 h 15.83 c 0,0 0.1031,-13.77 0.1546,-20.66 2.839,-0.2797 6.375,-0.3761 7.906,2.566 3.299,5.949 9.624,18.1 9.624,18.1 h 18.04 c 0,0 -7.234,-14.41 -12.36,-20.76 -1.635,-1.756 -4.249,-2.144 -6.424,-3.074 5.321,-0.524 10.9,-3.386 12.79,-8.674 1.72,-5.037 1.416,-11.23 -2.148,-15.43 -3.556,-4.124 -9.269,-5.5170001 -14.53,-5.227 -9.479,-0.01198 -28.89,-0.04683 -28.89,-0.04683 z m 15.99,11.7600001 c 3.629,0.01492 7.257,0.02984 10.89,0.04476 3.091,0.3374 4.114,4.134 2.822,6.576 -0.957,2.147 -3.446,2.412 -5.502,2.25 -2.737,-0.01548 -5.474,-0.03095 -8.21,-0.04643 -0.1351,-2.934 -0.1327,-5.891 0.0041,-8.825 z"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:#7e8eb0" />
+</svg>
